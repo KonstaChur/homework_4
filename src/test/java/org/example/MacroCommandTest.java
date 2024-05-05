@@ -73,6 +73,7 @@ class MacroCommandTest {
         });
 
         assertEquals(1.0, (double) fuel.fuelVolume(), 0.00001);
+        assertEquals(new Vector(1,2), move.getPosition());
 
     }
 
